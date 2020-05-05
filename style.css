@@ -1,0 +1,122 @@
+
+* {
+	
+  box-sizing: content-box;
+}
+
+
+
+body {
+  text-align: left;
+  background-color: #BEE5E9;
+} 
+
+header {
+  margin-top: 50px;
+}
+
+
+body h1 {
+  color: #525252;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+body h1 span {
+  color: #fafafa;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+/* 3 borders color after h1 */
+div.borderColor1 {
+  display: inline-block;
+  background: #FDB44B;
+  width: 95px;
+  height: 5px;
+}
+
+div.borderColor2 {
+  display: inline-block;
+  background: #F71E35;
+  width: 95px;
+  height: 5px;
+}
+
+ div.borderColor3 {
+  display: inline-block;
+  background: #0066B3;
+  width: 95px;
+  height: 5px;
+}
+
+
+/* when user click on list item text it marks it out */
+.done {
+  background-color: #ccc;
+  text-decoration: line-through;
+}
+
+
+i.fa-cart-plus {
+  padding-right: 5px;
+  font-size: 1.29em;
+}
+
+
+i.fa-shopping-basket {
+	font-size: 2em;
+	color: #FF9135;
+}
+
+
+li {
+	display: list-item;
+}
+
+.listItem {
+    cursor: pointer;
+    background: #fb7960;
+    color: #fff;
+    text-align: left;
+    padding: 8px 5px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+button#add {
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 0.65em;
+  display: inline;
+  margin: 0 auto;
+  width: 7%;
+  background-color: #63b931;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding: 2px;
+  transition: background-color 1s;
+}
+
+button#add:hover {
+  background: #74ce3b;
+}
+
+
+.deleteButton {
+  background-color: #a0829b;
+  color: #fff;
+  border-radius: 30px
+  margin: 20px;
+}
+
+.done {
+  text-decoration: line-through #ff3c3c;
+}
+
+
+
